@@ -1,0 +1,6 @@
+# patchconfirm-lightbox
+
+
+## License
+
+MIT

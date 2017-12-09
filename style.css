@@ -1,0 +1,45 @@
+
+.lightbox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(87, 73, 73, 0.57);
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.lightbox__content {
+  background: blue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+  margin: auto;
+}
+
+.patchconfirm {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .lightbox__content {
+    background: white;
+    width: 100%;
+  }
+  .patchconfirm__message {
+    width: 100%
+  }
+}
+
+
+.patchconfirm__message {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
